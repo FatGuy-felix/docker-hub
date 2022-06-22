@@ -1,7 +1,7 @@
-name: CI to Docker Hub
+name: CI to GHCR
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
 
